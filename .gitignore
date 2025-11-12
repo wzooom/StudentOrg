@@ -1,0 +1,30 @@
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
+
+# Frontend
+frontend/dist/
+frontend/.env
+frontend/.vite/
+
+# Backend
+backend/dist/
+backend/.env
+backend/dev.db
+backend/*.db
+
+# SQLite databases
+*.db
+*.db-journal
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
